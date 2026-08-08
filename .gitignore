@@ -2,3 +2,5 @@ siri/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+data/phishing_email.csv
+data/cleaned_phishing_email.csv
