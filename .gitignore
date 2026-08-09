@@ -1,6 +1,43 @@
-siri/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+siri/
+venv/
+env/
+.venv/
+
+# Jupyter
 .ipynb_checkpoints/
-data/phishing_email.csv
-data/cleaned_phishing_email.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Secrets
+.env
+.env.*
+
+# Large/raw datasets
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Large/raw/processed datasets
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.zip
+notebooks/data/**/*.csv
+notebooks/data/**/*.xlsx
+notebooks/data/**/*.zip
